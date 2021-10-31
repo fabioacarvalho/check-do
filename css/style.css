@@ -100,5 +100,8 @@ main {
         display: none;
     }
 
+    #nova-tarefa {
+        min-width: 330px;
+    }
 
 }
