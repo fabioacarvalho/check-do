@@ -7,3 +7,14 @@
 
 <img src="assets/img/readme/home.png">
 <br>
+
+<img src="assets/img/readme/hometarget.png">
+<br>
+
+# NOVAS ATIVIDADES
+
+<img src="assets/img/readme/targer.png">
+<br>
+
+<img src="assets/img/readme/newtarger.png">
+<br>
