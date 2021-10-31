@@ -8,7 +8,7 @@
 <img src="assets/img/readme/home.png">
 <br>
 
-# NOVAS ATIVIDADES
+# NOVAS TAREFAS
 
 <img src="assets/img/readme/newtarget.png">
 <br>
