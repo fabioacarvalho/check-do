@@ -8,13 +8,10 @@
 <img src="assets/img/readme/home.png">
 <br>
 
-<img src="assets/img/readme/hometarget.png">
-<br>
-
 # NOVAS ATIVIDADES
 
-<img src="assets/img/readme/targer.png">
+<img src="assets/img/readme/target.png">
 <br>
 
-<img src="assets/img/readme/newtarger.png">
+<img src="assets/img/readme/hometarget.png">
 <br>
