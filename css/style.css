@@ -37,6 +37,11 @@ nav {
     margin-bottom: 20px;
 }
 
+#versao {
+    font-family: var(--fonte-padrao);
+    font-size: 0.7rem;
+}
+
 #infos-links {
     font-family: var(--fonte-padrao);
 }
