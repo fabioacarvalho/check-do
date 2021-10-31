@@ -10,7 +10,7 @@
 
 # NOVAS ATIVIDADES
 
-<img src="assets/img/readme/target.png">
+<img src="assets/img/readme/newtarget.png">
 <br>
 
 <img src="assets/img/readme/hometarget.png">
