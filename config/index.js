@@ -19,7 +19,8 @@ new Vue({
             {qd: 3, classe: 'Faça Mais Tarde'},
             {qd: 4, classe: 'Delegue Para Outra Pessoa'},
         ],
-        qd: ''
+        qd: '',
+        info: false,
 
     },
     methods: {
@@ -57,12 +58,15 @@ new Vue({
             }
 
             this.newTarget = false
-            alert("Tarefa Adicionada!")
+            this.info = true
 
             this.tarefa.nome = ''
             this.tarefa.desc = ''
             this.tarefa.valorSelecionado = ''
 
+        },
+        alertInfo() {
+            this.info = false
         },
         concluirTarefa(nome, numero) {
 
