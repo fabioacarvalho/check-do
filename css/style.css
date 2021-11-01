@@ -13,10 +13,11 @@
     --cor1: #4462da;
     --cor2: #e8e8e8;
 
-
     --fonte-padrao: 'Maven Pro', sans-serif;
+    --fonte-padrao1: 'Inter', sans-serif;
     --fonte-titulo: 'Bebas Neue', cursive;
-    --fonte-logo: 'Kaushan Script', cursive;
+    --fonte-logo: 'Lobster', cursive;
+    --fonte-logo2: 'Kaushan Script', cursive;
     --fonte-destaque: 'Anton', sans-serif;
     --fonte-destaque2: 'Londrina Solid', cursive;
 }
@@ -36,17 +37,17 @@ nav {
     padding: 20px;
     color: white;
     background-color: var(--cor1);
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-logo);
     margin-bottom: 20px;
 }
 
 #versao {
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-padrao1);
     font-size: 0.7rem;
 }
 
 #infos-links {
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-padrao1);
 }
 
 main {
