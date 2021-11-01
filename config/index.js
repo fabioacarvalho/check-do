@@ -21,6 +21,7 @@ new Vue({
         ],
         qd: '',
         info: false,
+        acesso: false,
 
     },
     methods: {
@@ -97,6 +98,9 @@ new Vue({
             } else {
                 alert("Item não encontrado...")
             }          
+        },
+        acessar() {
+            this.acesso = true
         }
     },
 })
