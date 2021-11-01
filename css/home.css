@@ -47,6 +47,9 @@ button, a {
     color: white;
 }
 
+a {
+    padding: 10px 40px;
+}
 
 #img-check {
     max-width: 350px;
