@@ -5,7 +5,7 @@
 @keyframes animate {
     0% {
         transform: translateX(-800px);
-        color: #FFF;
+        color: #5c77e0;
     }
 
     60% {
@@ -18,7 +18,34 @@
 
     100% {
         transform: translateX(0);
-        color: #000;
+        color: #FFF;
+    }
+}
+
+.desloc {
+    height: 10px;
+    width: 150px;
+    background-color: #5c77e0;
+/*     animation: desloc 2s ease-in-out forwards;
+ */}
+
+@keyframes desloc {
+    0% {
+        transform: translateX(-800px);
+        color: #5c77e0;
+    }
+
+    60% {
+        transform: translateX(0);
+    }
+
+    80% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(0);
+        color: #FFF;
     }
 }
 
@@ -74,4 +101,43 @@
 
     }
     
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 10px solid #5c77e0;
+    animation: circle 2.5s ease-in-out infinite;
+    position: fixed;
+    z-index: -1;
+}
+
+.circle2 {
+    animation: circle 3.5s ease-in-out infinite;
+}
+
+@keyframes circle {
+
+	0% {
+		border-color: #5c77e0;
+		transform: scale(1);
+	}
+	25% {
+		border-color: white;
+		transform: scale(0.9);
+	}
+	50% {
+		border-color: #445bb6;
+		transform: scale(1);
+	}
+	75% {
+		border-color: white;
+		transform: scale(0.9);
+	}
+	100% {
+		border-color: #5c77e0;
+		transform: scale(1);
+	}
+
 }
