@@ -98,5 +98,5 @@ new Vue({
                 alert("Item não encontrado...")
             }          
         }
-    }
+    },
 })
